@@ -6,7 +6,7 @@ export default function Home() {
     <main className={styles.main}>
       <div className={styles.description}>
         <p>
-          udjjdjdjddjj&nbsp;
+          uddjj&nbsp;
           <code className={styles.code}>app/page.tsx</code>
         </p>
         <div>
