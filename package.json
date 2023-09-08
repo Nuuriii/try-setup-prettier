@@ -10,8 +10,10 @@
     "prepare": "husky install"
   },
   "lint-staged": {
-    "*.{js,jsx}": "eslint --fix",
-    "*.{js,jsx,css,md}": "prettier --write"
+    "*.{js,jsx,ts,tsx,md,html}": [
+      "eslint --fix",
+      "prettier --write"
+    ]
   },
   "dependencies": {
     "@types/node": "20.5.9",
